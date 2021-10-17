@@ -23,3 +23,6 @@ The following is a brief description of each variable (there are a total of 12 c
 - `duration`: Total Duration - in minutes or number of seasons
 - `listed_in`: Genre
 - `description`: The summary description
+
+---
+The jupyter notebook of the code can be viewed as a HTML website [here]()
