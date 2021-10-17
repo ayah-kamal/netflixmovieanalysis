@@ -30,5 +30,6 @@ The repository contains:
 - 2 versions of the code: 
   - Python code file (.py)
   - Jupyter notebook Pyhton file (.ipynb)
+- HTML output file of Jupyter notebook file (.HTML) 
  
-The Jupyter notebook of the code can be viewed as a HTML website [here](./netflixAnalysis.ipynb)
+The Jupyter notebook of the code can be viewed as a HTML website [here](./netflixAnalysis.HTML)
