@@ -32,4 +32,4 @@ The repository contains:
   - Jupyter notebook Pyhton file (.ipynb)
 - HTML output file of Jupyter notebook file (.HTML) 
  
-The Jupyter notebook of the code can be viewed as a HTML website [here](./netflixAnalysis.html)
+The Jupyter notebook of the code can be viewed as a HTML website [here](https://ayah-kamal.github.io/netflixmovieanalysis/netflixAnalysis.html)
