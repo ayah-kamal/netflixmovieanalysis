@@ -26,8 +26,9 @@ The following is a brief description of each variable (there are a total of 12 c
 
 ## Usage
 The repository contains:
-- Dataset file (.csv)
-- Python code file (.py)
-- Jupyter notebook Pyhton file (.ipynb)
-
+- Dataset file (.csv)]
+- 2 versions of the code:
+ - Python code file (.py)
+ - Jupyter notebook Pyhton file (.ipynb)
+ 
 The Jupyter notebook of the code can be viewed as a HTML website [here]()
