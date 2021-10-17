@@ -31,4 +31,4 @@ The repository contains:
   - Python code file (.py)
   - Jupyter notebook Pyhton file (.ipynb)
  
-The Jupyter notebook of the code can be viewed as a HTML website [here]()
+The Jupyter notebook of the code can be viewed as a HTML website [here](./netflixmovieanalysis.html)
