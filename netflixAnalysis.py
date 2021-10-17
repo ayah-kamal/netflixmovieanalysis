@@ -12,10 +12,11 @@ from plotnine import ggplot
 import matplotlib.pyplot as plt
 import missingno as msno
 
-# Import the dataset
+#--- Import the dataset ---#
 netflix_df = pd.read_csv('netflix_titles.csv')
 netflix_df.head()
 
+netflix_df.shape # 12 columns, 8807 rows
 
 #--- Cleaning the data ---#
 # We can see from the first 5 rows that some observations
@@ -24,5 +25,13 @@ netflix_df.head()
 msno.matrix(netflix_df)
 plt.show()
 
+print('\nColumns with missing value:') 
+print(netflix_df.isnull().any())
 
+(netflix_df.isnull().mean()*100).sort_values(ascending=False)[:6]
+
+netflix_df.director.fillna("No Director", inplace=True)
+netflix_df.cast.fillna("No Cast", inplace=True)
+netflix_df.country.fillna("Country Unavailable", inplace=True)
+netflix_df.dropna(subset=["date_added", "rating", "duration"], inplace=True)
 
