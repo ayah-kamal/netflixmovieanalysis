@@ -23,3 +23,12 @@ The following is a brief description of each variable (there are a total of 12 c
 - `duration`: Total Duration - in minutes or number of seasons
 - `listed_in`: Genre
 - `description`: The summary description
+
+## Usage
+The repository contains:
+- Dataset file (.csv)]
+- 2 versions of the code: 
+  - Python code file (.py)
+  - Jupyter notebook Pyhton file (.ipynb)
+ 
+The Jupyter notebook of the code can be viewed as a HTML website [here](./netflixAnalysis.ipynb)
