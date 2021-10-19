@@ -5,7 +5,7 @@
 
 In this analysis, the dataset used contains the information of all the movies and TV shows on Netflix. The dataset will be used to answer the research questions:
  - What are the top movies from each genre?
- - Which country produces the most TV shows?
+ - Which country produces the most content?
  - What's the best month to release content?
 
 ## About the Data
