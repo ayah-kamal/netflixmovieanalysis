@@ -4,8 +4,8 @@
 > Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies without commercials on an internet-connected device. [[Reference]](https://help.netflix.com/en/node/412#:~:text=Netflix%20is%20a%20subscription%2Dbased,on%20an%20internet%2Dconnected%20device.&text=If%20you're%20already%20a,visit%20Getting%20started%20with%20Netflix.)
 
 In this analysis, the dataset used contains the information of all the movies and TV shows on Netflix. The dataset will be used to answer the research questions:
- - What are the top movies from each genre?
- - Which country produces the most TV shows?
+ - What is Saudi Arabia's top genre?
+ - Which country produces the most content?
  - What's the best month to release content?
 
 ## About the Data
