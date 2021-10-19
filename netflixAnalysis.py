@@ -35,3 +35,9 @@ netflix_df.cast.fillna("No Cast", inplace=True)
 netflix_df.country.fillna("Country Unavailable", inplace=True)
 netflix_df.dropna(subset=["date_added", "rating", "duration"], inplace=True)
 
+#--- EDA and Visualization ---#
+plt.figure(figsize=(12,6))
+plt.title("Percentage of Netflix Titles as either Movies or TV Shows")
+plt.pie(netflix_df.type.value_counts(),explode=(0.01,0.01),labels=netflix_df.type.value_counts().index, colors=['#b1a7a6',"#a4161a"],autopct="%1.2f%%")
+plt.show()
+
